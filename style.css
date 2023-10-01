@@ -1,0 +1,122 @@
+.purple-bg{
+    width: 100%;
+    background-color: #DEC5FF;
+}
+
+.intro-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-right: 50px;
+    width: 45%;
+}
+
+.container{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin: 50px;
+}
+
+#c1r1{
+    font-weight: bold;
+}
+
+.Arthur{
+    font-weight: bold;
+    color: #9A29FF;
+}
+
+h1.Arthur{
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+#c1r1{
+    font-size: 50px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10;
+}
+
+.l{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15% 25% 15% 25% 15% ;
+    justify-items:center;
+}
+
+
+.box > p{
+    font-size: 0.3rem; 
+    text-align: center;
+}
+
+
+.r{
+    width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15% max-content max-content max-content;
+    justify-items: center;
+    padding: 10px;
+}
+
+.r button{
+    height: 40px;
+    width: 100px;
+    margin-top: 0px;
+    border-radius: 30px;
+    background-color: #5DF194; 
+    border: none;
+}
+.final-container{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+.bigbox{
+    height: 300px;
+    width: 85%;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+footer{
+    background-color: #56059c;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.future{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Orbitron', sans-serif;
+    color: #9A29FF;
+    font-size: 80px;
+}
